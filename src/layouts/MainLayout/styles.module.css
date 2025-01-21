@@ -1,0 +1,10 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.wrapper {
+    margin-top: 30px;
+}
