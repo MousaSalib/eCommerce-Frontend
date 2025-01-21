@@ -9,7 +9,7 @@ const categories = [
   { id: 5, name: "Sport" },
 ];
 
-const HomePage: React.FC = () => {
+const HomeContent: React.FC = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.heading}>Welcome to Our eCom App</h1>
@@ -27,4 +27,4 @@ const HomePage: React.FC = () => {
   );
 };
 
-export default HomePage;
+export default HomeContent;

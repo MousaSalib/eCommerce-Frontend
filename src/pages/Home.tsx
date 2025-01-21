@@ -1,10 +1,10 @@
-import { HomePage } from "@components/eCommerce";
+import { HomeContent } from "@components/eCommerce";
 
 const Home = () => {
   return (
-    <>
-      <HomePage />
-    </>
+    <div className="mb-4">
+      <HomeContent />
+    </div>
   );
 };
 

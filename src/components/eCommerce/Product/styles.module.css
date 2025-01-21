@@ -1,6 +1,7 @@
 .maximumNotice {
     font-size: 12px;
     margin-bottom: 7px;
+    text-align: center;
 }
 
 .wishlistBtn {
@@ -15,8 +16,40 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .wishlistBtn:hover {
     box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.4);
+    transform: scale(1.1);
+}
+
+/* Responsive Adjustments */
+
+/* Medium Screens */
+@media (max-width: 768px) {
+    .maximumNotice {
+        font-size: 11px;
+    }
+
+    .wishlistBtn {
+        width: 24px;
+        height: 24px;
+        top: 5px;
+        right: 5px;
+    }
+}
+
+/* Small Screens */
+@media (max-width: 480px) {
+    .maximumNotice {
+        font-size: 10px;
+    }
+
+    .wishlistBtn {
+        width: 20px;
+        height: 20px;
+        top: 3px;
+        right: 3px;
+    }
 }

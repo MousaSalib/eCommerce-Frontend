@@ -50,7 +50,11 @@ const Login = () => {
               register={register}
               error={formErrors.password?.message}
             />
-            <Button variant="info" type="submit" style={{ color: "white" }}>
+            <Button
+              variant="info"
+              type="submit"
+              style={{ color: "white", marginBottom: "10px" }}
+            >
               {loading === "pending" ? (
                 <>
                   <Spinner animation="border" size="sm"></Spinner> Loading...

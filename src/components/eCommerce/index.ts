@@ -1,4 +1,5 @@
-import HomePage from "./HomePage/HomePage";
+import HomeContent from "./HomeContent/HomeContent";
+import AboutUsContent from "./AboutUsContent/AboutUsContent";
 import Product from "./Product/Product";
 import Category from "./Category/Category";
 import CartItem from "./CartItem/CartItem";
@@ -7,11 +8,12 @@ import CartItemList from "./CartItemList/CartItemList";
 import ProductInfo from "./ProductInfo/ProductInfo";
 
 export {
-  HomePage,
+  HomeContent,
   Product,
   Category,
   CartItem,
   CartSubtotalPrice,
   CartItemList,
   ProductInfo,
+  AboutUsContent,
 };
